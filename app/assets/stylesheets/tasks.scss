@@ -172,7 +172,7 @@ h2 {
 }
 
 .delete-button {
-  background: url(delete-button.png);
+  background: image-url("delete-button.png");
   background-size: 20px 20px;
   width: 20px;
   height: 20px;
@@ -183,7 +183,7 @@ h2 {
 }
 
 .edit-button {
-  background: url(edit-button.png);
+  background: image-url("edit-button.png");
   background-size: 20px 20px;
   width: 20px;
   height: 20px;
@@ -195,7 +195,7 @@ h2 {
 }
 
 .complete-button {
-  background: url(mark-complete.png);
+  background: image-url("mark-complete.png");
   background-size: 20px 20px;
   width: 20px;
   height: 20px;

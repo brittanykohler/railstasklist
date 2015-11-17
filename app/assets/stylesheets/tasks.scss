@@ -1,0 +1,273 @@
+body {
+  font-family: 'Quicksand', sans-serif;
+  background-color: #FFFFFF;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid;
+  border-color: #747070;
+  text-align: center;
+  margin: auto;
+  width: 700px;
+  padding: 0px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+a {
+  text-decoration: none;
+  margin:auto;
+  text-align: center;
+  font-size: 18px;
+  color: black;
+}
+
+a:hover {color: #747070}
+
+h1 {
+  text-align: center;
+  font-family: 'Petit Formal Script', cursive;
+  color: #000000;
+  font-size: 40px;
+  margin: 5px auto;
+  width: 300px;
+  border: 5px;
+}
+
+.list {
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  border-color: #E7E5E1;
+  border-style: groove;
+  border-width: thin;
+}
+
+.full-task {
+  display: block;
+  opacity: 0.6;
+  border-radius: 5px 5px 5px 5px;
+  padding: 10px;
+  margin: 15px;
+  word-wrap: break-word;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+h2 {
+  text-align: center;
+}
+
+.inner-box {
+  margin: 5px;
+  background-color: #ffffff;
+}
+
+.outer-box {
+  width: 300px;
+  text-align: center;
+  margin: auto;
+  border-width: 3px;
+  border-style: solid;
+  border-color: #ffffff;
+  opacity: 0.7;
+}
+
+.gray-box {
+  background-color: #E7E5E1;
+  display: block;
+  padding: 10px;
+  word-wrap: break-word;
+}
+
+.white-box {
+  background-color: #ffffff;
+  display: block;
+  padding: 10px;
+  word-wrap: break-word;
+}
+
+.title {
+  font-family: 'Petit Formal Script', cursive;
+  font-size: 40px;
+  text-align: center;
+  color: #ff5363;
+  height: 75px;
+}
+
+#page-title {
+  margin-top: 40px;
+}
+
+.task-detail {
+  text-align: center;
+}
+
+.task-name {
+  font-size: 48px;
+  margin-top: 20px;
+}
+
+.task-description {
+  font-size: 24px;
+}
+
+.circle-button-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.circle-button {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  display: inline-block;
+  border-color: #000000;
+  border-style: solid;
+  border-width: 1px;
+  text-align: center;
+  padding-top: 10px;
+  margin: 10px;
+}
+
+.button-container {
+  margin: auto;
+  width: 320px;
+}
+
+#gray-button {
+  background-color: #E7E5E1;
+}
+
+.square-button {
+  width: 130px;
+  height: 130px;
+  display: inline-block;
+  text-align: center;
+  padding-top: 10px;
+  margin: 10px;
+}
+
+.square-button-container {
+  text-align: center;
+}
+
+.complete-button {
+  border-width: 1px;
+  border-style: solid;
+  background-color: transparent;
+  display: inline;
+  text-align: right;
+  float: right;
+  font-size: 14px;
+  font-family: 'Quicksand', sans-serif;
+
+}
+
+.delete-button {
+  background: url(delete-button.png);
+  background-size: 20px 20px;
+  width: 20px;
+  height: 20px;
+  display: inline;
+  border-style: none;
+  float:right;
+  margin: 0 5px;
+}
+
+.edit-button {
+  background: url(edit-button.png);
+  background-size: 20px 20px;
+  width: 20px;
+  height: 20px;
+  display: inline;
+  border-width: 1px;
+  border-style: none;
+  float:right;
+  margin: 0 5px;
+}
+
+.complete-button {
+  background: url(mark-complete.png);
+  background-size: 20px 20px;
+  width: 20px;
+  height: 20px;
+  display: inline;
+  border-width: 1px;
+  border-style: none;
+  float:right;
+  margin: 0 5px;
+}
+
+.delete-button:hover, .edit-button:hover, .complete-button:hover {color: #747070}
+
+.inline {
+  display: inline;
+}
+
+.button_to {
+  display: inline;
+  text-align: right;
+}
+
+.new_task, .edit_task, .new_person {
+  width: 400px;
+  margin: auto;
+}
+
+label {
+  display: block;
+}
+
+#task_name, #person_name, #person_photo {
+  width: 400px;
+}
+
+.create-task-button {
+  width: 130px;
+  height: 142px;
+  border-radius: 50%;
+  display: inline-block;
+  border-color: #000000;
+  border-style: solid;
+  border-width: 1px;
+  text-align: center;
+  padding-top: 10px;
+  margin-left: 10px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  background-color: #FFFFFF;
+}
+
+.create-task-button:hover {color: #747070}
+
+#task_description, #task_name, #person_name {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 14px;
+}
+
+.select-dropdown {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 24px;
+}
+
+.tasks-to-do {
+  font-size: 12px;
+}
+
+.person-photo {
+  width: 300px;
+}
+
+.person-info {
+  width: 300px;
+  margin: auto;
+}

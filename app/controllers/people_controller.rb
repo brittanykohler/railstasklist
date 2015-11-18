@@ -24,6 +24,10 @@ class PeopleController < ApplicationController
 
   def delete
     id = params[:id]
+    p = Person.find(id)
+    p.tasks.each do |task|
+      task.destroy
+    end
     Person.delete(id)
     redirect_to "/people"
   end

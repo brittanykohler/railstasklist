@@ -14,7 +14,7 @@
             <% count += 1 %>
             <% end %>
         <% end %>
-        <span class="tasks-to-do">Tasks to do: <%= count %></span>
+        <a class="tasks-to-do" href="/people/<%= person.id %>/tasks">Tasks to do: <%= count %></a>
         <%= button_to "", "/people/#{person.id}", method: :delete, data: { :confirm => "Are you sure?" }, class: "delete-button" %>
       </div>
       <% gray = false %>
@@ -28,7 +28,7 @@
             <% count += 1 %>
             <% end %>
         <% end %>
-        <span class="tasks-to-do">Tasks to do: <%= count %></span>
+        <a class="tasks-to-do" href="/people/<%= person.id %>/tasks">Tasks to do: <%= count %></a>
         <%= button_to "", "/people/#{person.id}", method: :delete, data: { :confirm => "Are you sure?" }, class: "delete-button" %>
       </div>
       <% gray = true %>
